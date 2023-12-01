@@ -1,3 +1,8 @@
+using Microsoft.EntityFrameworkCore;
+using ShoppingCart.Api.Data;
+using ShoppingCart.Api.Repositories;
+using ShoppingCart.Api.Repositories.Contracts;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

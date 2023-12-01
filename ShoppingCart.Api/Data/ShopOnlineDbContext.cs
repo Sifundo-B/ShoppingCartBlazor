@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using Microsoft.EntityFrameworkCore;
+using ShoppingCart.Api.Entities;
+using System.Collections.Generic;
 using System.Reflection.Emit;
 
 namespace ShoppingCart.Api.Data
